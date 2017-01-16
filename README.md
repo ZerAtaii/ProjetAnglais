@@ -13,3 +13,7 @@ Culture -> Frise chrono avec zoom sur chaque période (Histoire du Royaume-Unis 
 (Compréhension écrite -> Sortir des textes et poser des questions dessus (possible avec l'aspect civilisation) )
 
 Compréhension orale -> DL audio + poser question
+
+
+
+Culture : Monarchie Anglaise, Tradition Anglaise, guerre de sécession, guerre de 100 ans ...
