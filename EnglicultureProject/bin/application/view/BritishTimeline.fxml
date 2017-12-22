@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.BritishTimelineController">
+   <top>
+      <AnchorPane prefHeight="55.0" prefWidth="525.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitWidth="50.0" layoutX="29.0" layoutY="35.0" onMouseClicked="#left" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="resources/images/British_Empire/left.png" />
+               </image>
+            </ImageView>
+            <ImageView fitWidth="50.0" layoutX="105.0" layoutY="35.0" onMouseClicked="#right" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="resources/images/British_Empire/right.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Back" fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="-10.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/images/back.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="quizButton" fitHeight="150.0" fitWidth="200.0" layoutX="800.0" layoutY="-18.0" onMouseClicked="#goToQuiz" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/images/quiz.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="144.0" prefWidth="54.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="map" fitHeight="450.0" fitWidth="1000.0" onMouseClicked="#map" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="resources/images/British_Empire/1660.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

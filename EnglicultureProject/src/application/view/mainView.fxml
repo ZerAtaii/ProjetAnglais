@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane minHeight="600.0" minWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <left>
+            <ImageView fx:id="img" fitHeight="534.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../../../img/logo.png" />
+               </image></ImageView>
+         </left>
+         <center>
+            <AnchorPane prefHeight="383.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="timeline" fitHeight="114.0" fitWidth="400.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="resources/images/frisesécession.jpeg" />
+                     </image></ImageView>
+                  <Button ellipsisString="" layoutX="5.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#but1" prefHeight="24.0" prefWidth="0.0" />
+                  <Button ellipsisString="" layoutX="337.0" layoutY="287.0" mnemonicParsing="false" onMouseClicked="#but4" prefHeight="21.0" prefWidth="8.0" text="Button" />
+                  <Button ellipsisString="" layoutX="209.0" layoutY="287.0" mnemonicParsing="false" onMouseClicked="#but2" prefHeight="19.0" prefWidth="0.0" text="Button" />
+                  <Button ellipsisString="" layoutX="274.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#but3" prefHeight="27.0" prefWidth="0.0" text="Button" />
+               </children>
+            </AnchorPane>
+         </center>
+         <right>
+            <TextArea fx:id="txtA" editable="false" maxWidth="200.0" prefHeight="200.0" prefWidth="200.0" wrapText="true" BorderPane.alignment="CENTER" />
+         </right>
+         <top>
+            <AnchorPane prefHeight="103.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="back" contentDisplay="TOP" layoutX="307.0" layoutY="73.0" mnemonicParsing="false" onAction="#goBackToThemeSelection" text="Go back to theme selection" wrapText="true" />
+               </children>
+            </AnchorPane>
+         </top>
+      </BorderPane>
+   </center>
+</BorderPane>
